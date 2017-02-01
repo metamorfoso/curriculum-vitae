@@ -1,0 +1,36 @@
+body {
+	font-family: "Roboto", "Lucida Console", monospace;
+	margin: 0
+}
+
+a {
+	color: black;
+	text-decoration: underline;
+	text-decoration-style: dashed;
+	text-decoration-color: grey;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+}
+ul.bulleted {
+	list-style: disc;
+}
+
+h1, h2, h3, h4, h5 {
+	font-family: "Open Sans", monospace;
+}
+
+h3 {
+	margin: 0;
+	margin-top: 3rem;
+}
+
+*,
+*::before,
+*::after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
